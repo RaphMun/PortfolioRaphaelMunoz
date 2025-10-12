@@ -5,9 +5,16 @@ interface TypingTextProps {
   speed?: number;
   className?: string;
   onComplete?: () => void;
+  color?: string;
 }
 
-const TypingText: React.FC<TypingTextProps> = ({ text, speed = 50, className = '', onComplete }) => {
+const TypingText: React.FC<TypingTextProps> = ({ 
+  text, 
+  speed = 50, 
+  className = '', 
+  onComplete,
+  color = '#fcee09'
+}) => {
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -25,7 +32,10 @@ const TypingText: React.FC<TypingTextProps> = ({ text, speed = 50, className = '
   }, [currentIndex, text, speed, onComplete]);
 
   return (
-    <span className={`${className} terminal-cursor`}>
+    <span 
+      className={`${className} terminal-cursor font-mono`}
+      style={{ color }}
+    >
       {displayedText}
     </span>
   );
