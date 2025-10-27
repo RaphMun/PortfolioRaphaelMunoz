@@ -4,6 +4,7 @@ import CyberBackground from './components/CyberBackground';
 import TypingText from './components/TypingText';
 import CyberWindow from './components/CyberWindow';
 import GameStats from './components/GameStats';
+import SynthesisPage from './components/SynthesisPage';
 
 function App() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -17,7 +18,8 @@ function App() {
   const sections = [
     { id: 'about', label: 'rafael.exe --info', icon: User },
     { id: 'projects', label: 'rafael.exe --projects', icon: Briefcase },
-    { id: 'contact', label: 'rafael.exe --contact', icon: Mail }
+    { id: 'contact', label: 'rafael.exe --contact', icon: Mail },
+    { id: 'synthesis', label: 'rafael.exe --synthesis', icon: Terminal }
   ];
 
   return (
@@ -393,6 +395,11 @@ function App() {
                   </div>
                 </div>
               </CyberWindow>
+            )}
+
+            {/* Synthesis Section */}
+            {currentSection === 3 && (
+              <SynthesisPage />
             )}
 
             {/* Contact Section */}
