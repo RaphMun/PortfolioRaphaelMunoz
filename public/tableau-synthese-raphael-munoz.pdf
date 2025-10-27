@@ -1,0 +1,111 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(BTS SERVICES INFORMATIQUES AUX ORGANISATIONS - SESSION 2026) Tj
+0 -30 Td
+(Tableau de synthèse des réalisations professionnelles) Tj
+0 -30 Td
+(NOM et prénom : MUNOZ Raphaël) Tj
+0 -20 Td
+(Centre de formation : Lycée Robert Schuman) Tj
+0 -20 Td
+(Option : SLAM) Tj
+0 -40 Td
+(Réalisations professionnelles:) Tj
+0 -20 Td
+(- Projet cinéma (PHP) - Dec-23) Tj
+0 -15 Td
+(- Projet Aéroport (PHP) - Feb-24) Tj
+0 -15 Td
+(- Projet LPRS (PHP) - Jan-25) Tj
+0 -15 Td
+(- Projet LPRS (JAVA) - Feb-25) Tj
+0 -15 Td
+(- Projet pendu (JAVA) - Feb-24) Tj
+0 -15 Td
+(- Projet Sudoku (JAVA) - Mar-24) Tj
+0 -15 Td
+(- Projet gestion de stock (java) - May-24) Tj
+0 -15 Td
+(- Projet ToDoList (JAVAFX) - Dec-24) Tj
+0 -15 Td
+(- Réalisation d'un portfolio - Jan-25) Tj
+0 -15 Td
+(- Projet HSP (PHP) - Sep-25) Tj
+0 -30 Td
+(Compétences développées dans les domaines:) Tj
+0 -15 Td
+(- Gérer le patrimoine informatique) Tj
+0 -15 Td
+(- Répondre aux incidents et demandes d'assistance) Tj
+0 -15 Td
+(- Développer la présence en ligne) Tj
+0 -15 Td
+(- Travailler en mode projet) Tj
+0 -15 Td
+(- Mettre à disposition un service informatique) Tj
+0 -15 Td
+(- Organiser son développement professionnel) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000053 00000 n 
+0000000110 00000 n 
+0000000251 00000 n 
+0000001303 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1372
+%%EOF
