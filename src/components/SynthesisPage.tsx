@@ -66,7 +66,7 @@ const SynthesisPage: React.FC = () => {
               <p><span className="cyber-text-cyan">NOM et prénom :</span> <span className="cyber-text-yellow">MUNOZ Raphaël</span></p>
               <p><span className="cyber-text-cyan">Centre de formation :</span> <span className="cyber-text-yellow">Lycée Robert Schuman</span></p>
               <p><span className="cyber-text-cyan">Option :</span> <span className="cyber-text-pink">☑ SLAM</span> <span className="text-gray-500">☐ SISR</span></p>
-              <p><span className="cyber-text-cyan">Lien vers votre portfolio:</span> <a href="https://portfolio-gaming-ave-zf9d.bolt.host/" className="cyber-text-yellow hover:text-white">https://portfolio-gaming-ave-zf9d.bolt.host/</a></p>
+              <p><span className="cyber-text-cyan">Lien vers votre portfolio:</span> <a href="https://portfolio-gaming-ave-zf9d.bolt.host/" className=\"cyber-text-yellow hover:text-white">https://portfolio-gaming-ave-zf9d.bolt.host/</a></p>
             </div>
           </div>
 
