@@ -16,10 +16,10 @@ function App() {
   }, []);
 
   const sections = [
-    { id: 'about', label: 'rafael.exe --info', icon: User },
-    { id: 'projects', label: 'rafael.exe --projects', icon: Briefcase },
+    { id: 'about', label: 'rafael.exe --infos', icon: User },
+    { id: 'projects', label: 'rafael.exe --projets', icon: Briefcase },
     { id: 'contact', label: 'rafael.exe --contact', icon: Mail },
-    { id: 'synthesis', label: 'rafael.exe --synthesis', icon: Terminal }
+    { id: 'synthesis', label: 'rafael.exe --synthèse', icon: Terminal }
   ];
 
   return (
@@ -35,10 +35,10 @@ function App() {
               <Shield className="w-6 h-6 cyber-text-cyan" />
             </div>
             <div className="cyberpunk-title text-xl">
-              <TypingText 
-                text="RAFAEL.EXE INITIALIZED" 
-                className="glitch-text" 
-                data-text="RAFAEL.EXE INITIALIZED"
+              <TypingText
+                text="RAFAEL.EXE INITIALISÉ"
+                className="glitch-text"
+                data-text="RAFAEL.EXE INITIALISÉ"
                 color="#fcee09"
               />
             </div>
@@ -68,47 +68,47 @@ function App() {
             {/* About Section */}
             {currentSection === 0 && (
               <div className="space-y-8">
-                <CyberWindow title="NEURAL_PROFILE.JS" variant="yellow" className="mb-8">
+                <CyberWindow title="PROFIL_NEURAL.JS" variant="yellow" className="mb-8">
                   <div className="space-y-4">
                     <div className="text-gray-300">
                       <span className="cyber-text-cyan">const</span>{' '}
-                      <span className="cyber-text-yellow">cyberDeveloper</span>{' '}
+                      <span className="cyber-text-yellow">developpeurCyber</span>{' '}
                       <span className="text-white">=</span>{' '}
                       <span className="cyber-text-pink">{'{'}</span>
                     </div>
-                    
+
                     <div className="pl-4 space-y-2">
                       <div>
-                        <span className="cyber-text-cyan">name:</span>{' '}
+                        <span className="cyber-text-cyan">nom:</span>{' '}
                         <span className="cyber-text-yellow">"Raphaël Munoz"</span><span className="text-white">,</span>
                       </div>
                       <div>
-                        <span className="cyber-text-cyan">status:</span>{' '}
-                        <span className="cyber-text-yellow">"Cyber Student BTS SIO SLAM 2"</span><span className="text-white">,</span>
+                        <span className="cyber-text-cyan">statut:</span>{' '}
+                        <span className="cyber-text-yellow">"Étudiant Cybernétique BTS SIO SLAM 2"</span><span className="text-white">,</span>
                       </div>
                       <div>
-                        <span className="cyber-text-cyan">academy:</span>{' '}
+                        <span className="cyber-text-cyan">académie:</span>{' '}
                         <span className="cyber-text-yellow">"Lycée Robert Schuman"</span><span className="text-white">,</span>
                       </div>
                       <div>
-                        <span className="cyber-text-cyan">specialization:</span>{' '}
-                        <span className="cyber-text-yellow">"Neural Networks: PHP, Java & Web"</span><span className="text-white">,</span>
+                        <span className="cyber-text-cyan">spécialisation:</span>{' '}
+                        <span className="cyber-text-yellow">"Réseaux Neuraux : PHP, Java & Web"</span><span className="text-white">,</span>
                       </div>
                       <div>
                         <span className="cyber-text-cyan">passion:</span>{' '}
-                        <span className="cyber-text-yellow">"Cyberpunk Gaming & Code Matrix"</span><span className="text-white">,</span>
+                        <span className="cyber-text-yellow">"Jeux Cyberpunk & Matrice de Code"</span><span className="text-white">,</span>
                       </div>
                       <div>
-                        <span className="cyber-text-cyan">currentLevel:</span>{' '}
+                        <span className="cyber-text-cyan">niveauActuel:</span>{' '}
                         <span className="cyber-text-pink">BTS_SLAM_2.exe</span>
                       </div>
                     </div>
-                    
+
                     <div className="cyber-text-pink">{'};'}</div>
-                    
+
                     <div className="pt-4 text-gray-500">
-                      <TypingText 
-                        text="// Neural pathways optimized for development and cyberpunk gaming universe"
+                      <TypingText
+                        text="// Chemins neuraux optimisés pour le développement et l'univers du jeu cyberpunk"
                         speed={30}
                         color="#00f5ff"
                       />
@@ -116,22 +116,22 @@ function App() {
                   </div>
                 </CyberWindow>
 
-                {/* Parcours Section */}
-                <CyberWindow title="TIMELINE.NEURAL" variant="pink" className="mb-8">
+                {/* Section Parcours */}
+                <CyberWindow title="CHRONOLOGIE.NEURAL" variant="pink" className="mb-8">
                   <div className="space-y-4">
                     <div className="text-gray-300">
                       <span className="cyber-text-cyan">const</span>{' '}
-                      <span className="cyber-text-pink">cyberTimeline</span>{' '}
+                      <span className="cyber-text-pink">chronologieCyber</span>{' '}
                       <span className="text-white">=</span>{' '}
                       <span className="cyber-text-yellow">{'['}</span>
                     </div>
-                    
+
                     <div className="pl-4 space-y-4">
                       <div className="cyber-card p-4 cyber-border">
                         <div className="cyber-text-yellow">{'{'}</div>
                         <div className="pl-4 space-y-1">
                           <div>
-                            <span className="cyber-text-cyan">period:</span>{' '}
+                            <span className="cyber-text-cyan">période:</span>{' '}
                             <span className="cyber-text-yellow">"2020-2023"</span><span className="text-white">,</span>
                           </div>
                           <div>
@@ -139,41 +139,41 @@ function App() {
                             <span className="cyber-text-yellow">"2nde SN → Terminale"</span><span className="text-white">,</span>
                           </div>
                           <div>
-                            <span className="cyber-text-cyan">achievement:</span>{' '}
+                            <span className="cyber-text-cyan">réussite:</span>{' '}
                             <span className="cyber-text-pink">"Bac mention Bien"</span><span className="text-white">,</span>
                           </div>
                           <div>
-                            <span className="cyber-text-cyan">academy:</span>{' '}
+                            <span className="cyber-text-cyan">académie:</span>{' '}
                             <span className="cyber-text-yellow">"Lycée Robert Schuman"</span>
                           </div>
                         </div>
                         <div className="cyber-text-yellow">{'}'}<span className="text-white">,</span></div>
                       </div>
-                      
+
                       <div className="cyber-card p-4 cyber-border-pink">
                         <div className="cyber-text-yellow">{'{'}</div>
                         <div className="pl-4 space-y-1">
                           <div>
-                            <span className="cyber-text-cyan">period:</span>{' '}
+                            <span className="cyber-text-cyan">période:</span>{' '}
                             <span className="cyber-text-yellow">"2023-2025"</span><span className="text-white">,</span>
                           </div>
                           <div>
-                            <span className="cyber-text-cyan">program:</span>{' '}
-                            <span className="cyber-text-yellow">"BTS SIO SLAM Neural Training"</span><span className="text-white">,</span>
+                            <span className="cyber-text-cyan">programme:</span>{' '}
+                            <span className="cyber-text-yellow">"Formation Neurale BTS SIO SLAM"</span><span className="text-white">,</span>
                           </div>
                           <div>
-                            <span className="cyber-text-cyan">currentPhase:</span>{' '}
-                            <span className="cyber-text-pink">"Level 2 - Advanced Training"</span><span className="text-white">,</span>
+                            <span className="cyber-text-cyan">phaseActuelle:</span>{' '}
+                            <span className="cyber-text-pink">"Niveau 2 - Formation Avancée"</span><span className="text-white">,</span>
                           </div>
                           <div>
-                            <span className="cyber-text-cyan">academy:</span>{' '}
+                            <span className="cyber-text-cyan">académie:</span>{' '}
                             <span className="cyber-text-yellow">"Lycée Robert Schuman"</span>
                           </div>
                         </div>
                         <div className="cyber-text-yellow">{'}'}</div>
                       </div>
                     </div>
-                    
+
                     <div className="cyber-text-yellow">{']; '}</div>
                   </div>
                 </CyberWindow>
@@ -181,41 +181,41 @@ function App() {
               </div>
             )}
 
-            {/* Projects Section */}
+            {/* Section Projets */}
             {currentSection === 1 && (
-              <CyberWindow title="PROJECT_DATABASE.NEURAL" variant="purple" className="mb-8">
+              <CyberWindow title="BASE_DE_DONNEES_PROJETS.NEURAL" variant="purple" className="mb-8">
                 <div className="space-y-6">
                   <div className="text-gray-300">
                     <span className="cyber-text-cyan">const</span>{' '}
-                    <span className="cyber-text-purple">cyberProjects</span>{' '}
+                    <span className="cyber-text-purple">projetsCyber</span>{' '}
                     <span className="text-white">=</span>{' '}
                     <span className="cyber-text-yellow">{'['}</span>
                   </div>
-                  
+
                   <div className="pl-4 space-y-4">
                     {/* Projet Cinéma */}
                     <div className="cyber-card p-4 transform hover:scale-105 transition-all duration-300">
                       <div className="cyber-text-yellow">{'{'}</div>
                       <div className="pl-4 space-y-2">
                         <div>
-                          <span className="cyber-text-cyan">projectName:</span>{' '}
-                          <span className="cyber-text-yellow">"Cinema Neural Network"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">nomProjet:</span>{' '}
+                          <span className="cyber-text-yellow">"Réseau Neuronal Cinéma"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">coreLanguage:</span>{' '}
+                          <span className="cyber-text-cyan">langagePrincipal:</span>{' '}
                           <span className="cyber-text-yellow">"PHP.exe"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">systemType:</span>{' '}
-                          <span className="cyber-text-yellow">"Web Neural Interface"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">typeSysteme:</span>{' '}
+                          <span className="cyber-text-yellow">"Interface Neurale Web"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">status:</span>{' '}
-                          <span className="cyber-text-pink">"MISSION_COMPLETE"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">statut:</span>{' '}
+                          <span className="cyber-text-pink">"MISSION_COMPLETÉE"</span><span className="text-white">,</span>
                         </div>
                         <div>
                           <span className="cyber-text-cyan">description:</span>{' '}
-                          <span className="cyber-text-yellow">"Complete cinema management neural system"</span>
+                          <span className="cyber-text-yellow">"Système neuronal complet de gestion cinéma"</span>
                         </div>
                       </div>
                       <div className="cyber-text-yellow">{'}'}<span className="text-white">,</span></div>
@@ -237,20 +237,20 @@ function App() {
                       <div className="cyber-text-yellow">{'{'}</div>
                       <div className="pl-4 space-y-2">
                         <div>
-                          <span className="cyber-text-cyan">projectName:</span>{' '}
-                          <span className="cyber-text-yellow">"Airport Control System"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">nomProjet:</span>{' '}
+                          <span className="cyber-text-yellow">"Système de Contrôle Aéroport"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">coreLanguage:</span>{' '}
+                          <span className="cyber-text-cyan">langagePrincipal:</span>{' '}
                           <span className="cyber-text-yellow">"PHP.exe"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">systemType:</span>{' '}
-                          <span className="cyber-text-yellow">"Flight Management Interface"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">typeSysteme:</span>{' '}
+                          <span className="cyber-text-yellow">"Interface de Gestion des Vols"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">status:</span>{' '}
-                          <span className="cyber-text-pink">"MISSION_COMPLETE"</span>
+                          <span className="cyber-text-cyan">statut:</span>{' '}
+                          <span className="cyber-text-pink">"MISSION_COMPLETÉE"</span>
                         </div>
                       </div>
                       <div className="cyber-text-yellow">{'}'}<span className="text-white">,</span></div>
@@ -272,20 +272,20 @@ function App() {
                       <div className="cyber-text-yellow">{'{'}</div>
                       <div className="pl-4 space-y-2">
                         <div>
-                          <span className="cyber-text-cyan">projectName:</span>{' '}
-                          <span className="cyber-text-yellow">"LPRS Neural Systems"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">nomProjet:</span>{' '}
+                          <span className="cyber-text-yellow">"Systèmes Neuraux LPRS"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">coreLanguages:</span>{' '}
+                          <span className="cyber-text-cyan">langagesPrincipaux:</span>{' '}
                           <span className="cyber-text-yellow">["PHP.exe", "Java.neural"]</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">systemType:</span>{' '}
-                          <span className="cyber-text-yellow">"Multi-Platform Interface"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">typeSysteme:</span>{' '}
+                          <span className="cyber-text-yellow">"Interface Multi-Plateforme"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">status:</span>{' '}
-                          <span className="cyber-text-pink">"MISSION_COMPLETE"</span>
+                          <span className="cyber-text-cyan">statut:</span>{' '}
+                          <span className="cyber-text-pink">"MISSION_COMPLETÉE"</span>
                         </div>
                       </div>
                       <div className="cyber-text-yellow">{'}'}<span className="text-white">,</span></div>
@@ -311,20 +311,20 @@ function App() {
                       <div className="cyber-text-yellow">{'{'}</div>
                       <div className="pl-4 space-y-2">
                         <div>
-                          <span className="cyber-text-cyan">category:</span>{' '}
-                          <span className="cyber-text-yellow">"Java Neural Collection"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">categorie:</span>{' '}
+                          <span className="cyber-text-yellow">"Collection Neurale Java"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">neuralPrograms:</span>{' '}
-                          <span className="cyber-text-yellow">["Pendu.java", "Sudoku.neural", "StockManager.exe", "ToDoList.fx"]</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">programmesNeuraux:</span>{' '}
+                          <span className="cyber-text-yellow">["Pendu.java", "Sudoku.neural", "GestionnaireStock.exe", "ListeTaches.fx"]</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">coreLanguage:</span>{' '}
+                          <span className="cyber-text-cyan">langagePrincipal:</span>{' '}
                           <span className="cyber-text-yellow">"Java.neural / JavaFX.interface"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">status:</span>{' '}
-                          <span className="cyber-text-pink">"ALL_MISSIONS_COMPLETE"</span>
+                          <span className="cyber-text-cyan">statut:</span>{' '}
+                          <span className="cyber-text-pink">"TOUTES_MISSIONS_COMPLETÉES"</span>
                         </div>
                       </div>
                       <div className="cyber-text-yellow">{'}'}<span className="text-white">,</span></div>
@@ -354,20 +354,20 @@ function App() {
                       <div className="cyber-text-yellow">{'{'}</div>
                       <div className="pl-4 space-y-2">
                         <div>
-                          <span className="cyber-text-cyan">projectName:</span>{' '}
-                          <span className="cyber-text-yellow">"Cyberpunk Portfolio Interface"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">nomProjet:</span>{' '}
+                          <span className="cyber-text-yellow">"Interface Portfolio Cyberpunk"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">coreLanguage:</span>{' '}
+                          <span className="cyber-text-cyan">langagePrincipal:</span>{' '}
                           <span className="cyber-text-yellow">"React.neural + TypeScript.exe"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">systemType:</span>{' '}
-                          <span className="cyber-text-yellow">"Neural Web Interface"</span><span className="text-white">,</span>
+                          <span className="cyber-text-cyan">typeSysteme:</span>{' '}
+                          <span className="cyber-text-yellow">"Interface Web Neurale"</span><span className="text-white">,</span>
                         </div>
                         <div>
-                          <span className="cyber-text-cyan">status:</span>{' '}
-                          <span className="cyber-text-cyan">"ACTIVE_DEVELOPMENT"</span>
+                          <span className="cyber-text-cyan">statut:</span>{' '}
+                          <span className="cyber-text-cyan">"DEVELOPPEMENT_ACTIF"</span>
                         </div>
                       </div>
                       <div className="cyber-text-yellow">{'}'}</div>
@@ -387,8 +387,8 @@ function App() {
                   
                   <div className="cyber-text-yellow">{']; '}</div>
                   <div className="text-gray-500">
-                    <TypingText 
-                      text="// Neural project database compiled during BTS SIO SLAM training protocol" 
+                    <TypingText
+                      text="// Base de données de projets neuraux compilée pendant le protocole de formation BTS SIO SLAM"
                       speed={40}
                       color="#b300ff"
                     />
@@ -402,57 +402,57 @@ function App() {
               <SynthesisPage />
             )}
 
-            {/* Contact Section */}
+            {/* Section Contact */}
             {currentSection === 2 && (
-              <CyberWindow title="CONTACT_PROTOCOL.NEURAL" variant="default" className="mb-8">
+              <CyberWindow title="PROTOCOLE_CONTACT.NEURAL" variant="default" className="mb-8">
                 <div className="space-y-4">
                   <div className="text-gray-300">
                     <span className="cyber-text-cyan">const</span>{' '}
-                    <span className="cyber-text-cyan">neuralContactProtocol</span>{' '}
+                    <span className="cyber-text-cyan">protocoleContactNeural</span>{' '}
                     <span className="text-white">=</span>{' '}
                     <span className="cyber-text-yellow">{'{'}</span>
                   </div>
-                  
+
                   <div className="pl-4 space-y-4">
                     <div className="flex items-center space-x-4 group cursor-pointer hover:cyber-bg-cyan p-3 rounded-lg transition-all duration-300 cyber-card">
                       <Phone className="w-5 h-5 cyber-text-cyan" />
                       <div>
-                        <span className="cyber-text-cyan">neuralPhone:</span>{' '}
+                        <span className="cyber-text-cyan">telephoneNeural:</span>{' '}
                         <a href="tel:0695869618" className="cyber-text-yellow hover:text-white">
                           "0695869618"
                         </a>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center space-x-4 group cursor-pointer hover:cyber-bg-yellow p-3 rounded-lg transition-all duration-300 cyber-card">
                       <Mail className="w-5 h-5 cyber-text-yellow" />
                       <div>
-                        <span className="cyber-text-cyan">neuralEmail:</span>{' '}
+                        <span className="cyber-text-cyan">emailNeural:</span>{' '}
                         <a href="mailto:rafael.munoz@outlook.fr" className="cyber-text-yellow hover:text-white">
                           "rafael.munoz@outlook.fr"
                         </a>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center space-x-4 group cursor-pointer hover:cyber-bg-pink p-3 rounded-lg transition-all duration-300 cyber-card">
                       <Github className="w-5 h-5 cyber-text-pink" />
                       <div>
-                        <span className="cyber-text-cyan">neuralRepository:</span>{' '}
+                        <span className="cyber-text-cyan">referentielNeural:</span>{' '}
                         <span className="cyber-text-yellow">"github.com/rafael-munoz"</span>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center space-x-4">
-                      <span className="cyber-text-cyan">systemStatus:</span>{' '}
-                      <span className="cyber-text-pink animate-pulse">"🔴 ONLINE - Ready for new neural missions"</span>
+                      <span className="cyber-text-cyan">statutSysteme:</span>{' '}
+                      <span className="cyber-text-pink animate-pulse">"🔴 EN LIGNE - Prêt pour les nouvelles missions neurales"</span>
                     </div>
                   </div>
-                  
+
                   <div className="cyber-text-yellow">{'};'}</div>
-                  
+
                   <div className="pt-4 text-gray-500">
-                    <TypingText 
-                      text="// Initiate contact protocol to discuss new cyberpunk projects and neural collaborations" 
+                    <TypingText
+                      text="// Initier le protocole de contact pour discuter de nouveaux projets cyberpunk et collaborations neurales"
                       speed={35}
                       color="#ff0080"
                     />
@@ -464,11 +464,11 @@ function App() {
         )}
       </main>
 
-      {/* Footer */}
+      {/* Pied de page */}
       <footer className="relative z-10 text-center py-8 mt-16 border-t border-cyan-400/30 bg-black/20 backdrop-blur-sm">
         <div className="text-gray-500">
-          <TypingText 
-            text="© 2077 Raphaël Munoz - Neural Training Protocol BTS SIO SLAM 2 - Cyber Academy Robert Schuman 🚀" 
+          <TypingText
+            text="© 2077 Raphaël Munoz - Protocole de Formation Neurale BTS SIO SLAM 2 - Académie Cybernétique Robert Schuman 🚀"
             speed={50}
             color="#00f5ff"
           />

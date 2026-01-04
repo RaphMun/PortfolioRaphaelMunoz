@@ -3,10 +3,10 @@ import { Zap, Trophy, Target, Code2, Cpu, Database, Gamepad2, Award } from 'luci
 
 const GameStats: React.FC = () => {
   const stats = [
-    { icon: Gamepad2, label: 'Level', value: 'BTS SLAM 2', color: '#fcee09' },
-    { icon: Zap, label: 'XP Points', value: '9 Projets', color: '#00f5ff' },
+    { icon: Gamepad2, label: 'Niveau', value: 'BTS SLAM 2', color: '#fcee09' },
+    { icon: Zap, label: 'Points XP', value: '9 Projets', color: '#00f5ff' },
     { icon: Target, label: 'Formation', value: 'Robert Schuman', color: '#ff0080' },
-    { icon: Trophy, label: 'Skills', value: 'PHP & Java', color: '#b300ff' }
+    { icon: Trophy, label: 'Compétences', value: 'PHP & Java', color: '#b300ff' }
   ];
 
   return (

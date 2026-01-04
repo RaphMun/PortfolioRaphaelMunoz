@@ -6,27 +6,27 @@ import TypingText from './TypingText';
 const SynthesisPage: React.FC = () => {
   return (
     <div className="space-y-8">
-      {/* Header */}
-      <CyberWindow title="SYNTHESIS_TABLE.NEURAL" variant="purple" className="mb-8">
+      {/* Entête */}
+      <CyberWindow title="TABLE_SYNTHESE.NEURAL" variant="purple" className="mb-8">
         <div className="space-y-4">
           <div className="text-gray-300">
             <span className="cyber-text-cyan">const</span>{' '}
-            <span className="cyber-text-purple">officialDocument</span>{' '}
+            <span className="cyber-text-purple">documentOfficial</span>{' '}
             <span className="text-white">=</span>{' '}
             <span className="cyber-text-yellow">{'{'}</span>
           </div>
-          
+
           <div className="pl-4 space-y-2">
             <div>
-              <span className="cyber-text-cyan">student:</span>{' '}
+              <span className="cyber-text-cyan">étudiant:</span>{' '}
               <span className="cyber-text-yellow">"MUNOZ Raphaël"</span><span className="text-white">,</span>
             </div>
             <div>
-              <span className="cyber-text-cyan">academy:</span>{' '}
+              <span className="cyber-text-cyan">académie:</span>{' '}
               <span className="cyber-text-yellow">"Lycée Robert Schuman"</span><span className="text-white">,</span>
             </div>
             <div>
-              <span className="cyber-text-cyan">program:</span>{' '}
+              <span className="cyber-text-cyan">programme:</span>{' '}
               <span className="cyber-text-yellow">"BTS SIO SLAM"</span><span className="text-white">,</span>
             </div>
             <div>
@@ -34,20 +34,20 @@ const SynthesisPage: React.FC = () => {
               <span className="cyber-text-pink">"2026"</span><span className="text-white">,</span>
             </div>
             <div>
-              <span className="cyber-text-cyan">totalProjects:</span>{' '}
+              <span className="cyber-text-cyan">totalProjets:</span>{' '}
               <span className="cyber-text-pink">18</span><span className="text-white">,</span>
             </div>
             <div>
-              <span className="cyber-text-cyan">competenciesValidated:</span>{' '}
+              <span className="cyber-text-cyan">competencesValidees:</span>{' '}
               <span className="cyber-text-pink">6</span>
             </div>
           </div>
           
           <div className="cyber-text-yellow">{'};'}</div>
-          
+
           <div className="pt-4 text-gray-500">
-            <TypingText 
-              text="// Document officiel de synthèse des réalisations professionnelles BTS SIO SLAM" 
+            <TypingText
+              text="// Document officiel de synthèse des réalisations professionnelles BTS SIO SLAM"
               speed={30}
               color="#b300ff"
             />
@@ -341,8 +341,8 @@ const SynthesisPage: React.FC = () => {
         </div>
       </CyberWindow>
 
-      {/* Summary Stats */}
-      <CyberWindow title="DOCUMENT_STATS.NEURAL" variant="yellow" className="mb-8">
+      {/* Statistiques Résumé */}
+      <CyberWindow title="STATISTIQUES_DOCUMENT.NEURAL" variant="yellow" className="mb-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="cyber-card p-4 text-center transform hover:scale-105 transition-all duration-300">
             <User className="w-8 h-8 mx-auto mb-3 cyber-text-yellow" />
@@ -380,7 +380,7 @@ const SynthesisPage: React.FC = () => {
               Projets
             </div>
             <div className="text-lg font-bold font-mono cyber-text-purple">
-              18 Total
+              Total 18
             </div>
           </div>
         </div>
