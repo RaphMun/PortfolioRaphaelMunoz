@@ -222,6 +222,17 @@ const SynthesisPage: React.FC = () => {
                   <td className="border border-cyan-400/50 p-2 text-center"></td>
                 </tr>
 
+                <tr className="hover:bg-gray-800/30">
+                  <td className="border border-cyan-400/50 p-2">Projet HSP (JAVA)</td>
+                  <td className="border border-cyan-400/50 p-2 text-center">Jan-26</td>
+                  <td className="border border-cyan-400/50 p-2 text-center cyber-text-yellow">X</td>
+                  <td className="border border-cyan-400/50 p-2 text-center cyber-text-yellow">X</td>
+                  <td className="border border-cyan-400/50 p-2 text-center cyber-text-yellow">X</td>
+                  <td className="border border-cyan-400/50 p-2 text-center cyber-text-yellow">X</td>
+                  <td className="border border-cyan-400/50 p-2 text-center cyber-text-yellow">X</td>
+                  <td className="border border-cyan-400/50 p-2 text-center"></td>
+                </tr>
+
                 {/* Réalisations en milieu professionnel première année */}
                 <tr>
                   <td colSpan={8} className="border border-cyan-400/50 p-2 bg-yellow-900/20 cyber-text-yellow font-bold text-center">
