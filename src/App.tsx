@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Terminal, User, Briefcase, Mail, Phone, Github, Cpu, Zap, Shield } from 'lucide-react';
+import { Terminal, User, Briefcase, Mail, Phone, Github, Cpu, Zap, Shield, Download } from 'lucide-react';
 import CyberBackground from './components/CyberBackground';
 import TypingText from './components/TypingText';
 import CyberWindow from './components/CyberWindow';
@@ -449,6 +449,17 @@ function App() {
                   </div>
 
                   <div className="cyber-text-yellow">{'};'}</div>
+
+                  <div className="pt-6 flex justify-center">
+                    <a
+                      href="/cv_raphael_munoz_2026.pdf"
+                      download="cv_raphael_munoz_2026.pdf"
+                      className="cyber-button flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                      <Download className="w-5 h-5" />
+                      <span>Télécharger CV</span>
+                    </a>
+                  </div>
 
                   <div className="pt-4 text-gray-500">
                     <TypingText
