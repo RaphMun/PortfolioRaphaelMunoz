@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Terminal, User, Briefcase, Mail, Phone, Github, Cpu, Zap, Shield, Download } from 'lucide-react';
+import { Terminal, User, Briefcase, Mail, Phone, Github, Cpu, Zap, Shield, Download, FileText } from 'lucide-react';
 import CyberBackground from './components/CyberBackground';
 import TypingText from './components/TypingText';
 import CyberWindow from './components/CyberWindow';
@@ -19,6 +19,7 @@ function App() {
     { id: 'about', label: 'rafael.exe --infos', icon: User },
     { id: 'projects', label: 'rafael.exe --projets', icon: Briefcase },
     { id: 'contact', label: 'rafael.exe --contact', icon: Mail },
+    { id: 'cv', label: 'rafael.exe --cv', icon: FileText },
     { id: 'synthesis', label: 'rafael.exe --synthèse', icon: Terminal }
   ];
 
@@ -398,8 +399,34 @@ function App() {
             )}
 
             {/* Synthesis Section */}
-            {currentSection === 3 && (
+            {currentSection === 4 && (
               <SynthesisPage />
+            )}
+
+            {/* CV Section */}
+            {currentSection === 3 && (
+              <CyberWindow title="DOCUMENT_CV.PDF" variant="cyan" className="mb-8">
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="text-gray-400">Aperçu du CV - Raphaël Munoz</span>
+                    <a
+                      href="/cv_raphael_munoz_2026.pdf"
+                      download="cv_raphael_munoz_2026.pdf"
+                      className="cyber-button flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 transition-all duration-300 text-sm"
+                    >
+                      <Download className="w-4 h-4" />
+                      <span>Télécharger</span>
+                    </a>
+                  </div>
+                  <div className="border border-cyan-400/30 rounded-lg overflow-hidden">
+                    <iframe
+                      src="/cv_raphael_munoz_2026.pdf"
+                      className="w-full h-screen"
+                      style={{ height: '700px' }}
+                    />
+                  </div>
+                </div>
+              </CyberWindow>
             )}
 
             {/* Section Contact */}
